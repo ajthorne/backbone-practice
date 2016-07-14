@@ -1,0 +1,104 @@
+body {
+  font-family: helvetica;
+  background-color: #F5F5F1; }
+  body nav {
+    font-size: 0.8rem;
+    text-align: right;
+    background-color: #7F4681;
+    color: white;
+    padding: 1rem; }
+    body nav a {
+      text-decoration: none;
+      color: white; }
+      body nav a:hover {
+        text-decoration: overline; }
+  body .new-post {
+    background: url("http://www.wallpaperup.com/uploads/wallpapers/2012/11/07/21636/big_thumb_0c16a2e12e77a1d88c041bff344c3371.jpg");
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 2px solid #7F4681;
+    border-radius: 8px; }
+    body .new-post h2 {
+      color: white;
+      margin-top: 0.5rem;
+      text-align: center; }
+    body .new-post input {
+      font-size: 1rem; }
+    body .new-post .postTitle {
+      display: block;
+      width: 100%; }
+    body .new-post .postBody {
+      display: block;
+      width: 100%;
+      height: 200px;
+      font-size: 1rem; }
+    body .new-post .submitPost {
+      width: 20%;
+      border-radius: 5px;
+      background-color: white;
+      border: 0; }
+  body .new-user {
+    width: 55%;
+    margin: 0 auto;
+    border: 2px solid #7F4681;
+    margin-top: 2rem;
+    background-color: #E6BCE8;
+    padding: 0.5rem;
+    border-radius: 8px; }
+    body .new-user h2 {
+      text-align: center; }
+    body .new-user input {
+      margin-left: 1rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1px solid #7F4681;
+      padding: 0.3rem; }
+    body .new-user #first-name {
+      width: 45%; }
+    body .new-user #last-name {
+      width: 46%;
+      margin-left: 0; }
+    body .new-user #address {
+      display: block;
+      margin: 1rem;
+      width: 93.5%;
+      font-size: 1rem;
+      border: 1px solid #7F4681;
+      border-radius: 5px;
+      padding: 0.3rem; }
+    body .new-user #number {
+      margin-bottom: 0.5rem; }
+    body .new-user #submitUser {
+      display: block;
+      background-color: #7F4681;
+      color: white;
+      margin-bottom: 1rem; }
+  body aside {
+    float: left;
+    margin-right: 2rem;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 0 1rem 1rem 1rem;
+    height: 800px;
+    background: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/09/Purple-wallpaper-11.jpg"); }
+    body aside a {
+      text-decoration: none;
+      color: black;
+      line-height: 25px;
+      font-size: 1.1rem; }
+      body aside a:hover {
+        font-weight: bold; }
+    body aside h2 {
+      margin: 0;
+      padding-top: 1rem;
+      display: inline-block; }
+  body .blog-section {
+    padding-right: 1rem;
+    text-align: justify; }
+    body .blog-section h2 {
+      margin-top: 0;
+      padding-top: 1rem; }
+
+/*# sourceMappingURL=main.css.map */
