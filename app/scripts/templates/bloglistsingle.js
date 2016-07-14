@@ -11,7 +11,7 @@ function renderSingleBlog(id) {
   renderBlogList();
 
   $.ajax({
-    url: 'http://tiny-za-server.herokuapp.com/collections/amandablog/' + postUrl,
+    url: 'https://tiny-za-server.herokuapp.com/collections/amandablog/' + postUrl,
     success: function(response) {
       console.log(response);
       let newBlog = $(`<div class="new-blog">

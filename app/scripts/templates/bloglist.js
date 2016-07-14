@@ -19,7 +19,7 @@ function renderBlogList () {
     $('.container').empty().append(nav).append(blogList);
 
     $.ajax({
-      url: 'http://tiny-za-server.herokuapp.com/collections/amandablog',
+      url: 'https://tiny-za-server.herokuapp.com/collections/amandablog',
       success: function(response) {
         response.forEach(function(blog) {
           let singleblog = (_.pick(blog, 'title'));
